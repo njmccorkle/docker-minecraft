@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Home",
+    "iconUrl": "https://i.imgur.com/3BmFZRE.png",
+    "content": [
+      {
+        "name": "Wetlands",
+        "iconUrl": "https://i.imgur.com/3BmFZRE.png",
+        "address": "10.1.1.98",
+        "port": 19133
+      },
+      {
+        "name": "Mooshroom",
+        "iconUrl": "https://i.imgur.com/3BmFZRE.png",
+        "address": "10.1.1.98",
+        "port": 19134
+      }
+    ]
+  },
+  {
+    "name": "Away",
+    "iconUrl": "https://i.imgur.com/3BmFZRE.png",
+    "content": [
+      {
+        "name": "Wetlands",
+        "iconUrl": "https://i.imgur.com/3BmFZRE.png",
+        "address": "minecraft.mccorkle.co",
+        "port": 19133
+      },
+      {
+        "name": "Mooshroom",
+        "iconUrl": "https://i.imgur.com/3BmFZRE.png",
+        "address": "minecraft.mccorkle.co",
+        "port": 19134
+      }
+    ]
+  }
+]

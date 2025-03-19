@@ -1,0 +1,15 @@
+services:
+  mc-wetlands:
+    image: itzg/minecraft-bedrock-server
+    container_name: mc-wetlands
+    environment:
+      EULA: "TRUE"
+      OPS: "2535443204618427"
+      SERVER_NAME: Wetlands
+      DIFFICULTY: peaceful
+    ports:
+      - 19133:19132/udp
+    volumes:
+      - ./data:/data
+    stdin_open: true
+    tty: true

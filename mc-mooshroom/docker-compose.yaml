@@ -1,0 +1,16 @@
+services:
+  mc-mooshroom:
+    image: itzg/minecraft-bedrock-server
+    container_name: mc-mooshroom
+    environment:
+      EULA: "TRUE"
+      OPS: "2535443204618427"
+      SERVER_NAME: Mooshroom
+      LEVEL_SEED: "3903589"
+      DIFFICULTY: peaceful
+    ports:
+      - 19134:19132/udp
+    volumes:
+      - ./data:/data
+    stdin_open: true
+    tty: true

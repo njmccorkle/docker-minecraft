@@ -1,0 +1,9 @@
+services:
+  bedrock-connect:
+    build: .
+    container_name: bedrock-connect
+    restart: always
+    ports:
+      - 19132:19132/udp
+    volumes:
+      - ./custom_servers.json:/app/custom_servers.json
