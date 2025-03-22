@@ -1,0 +1,16 @@
+services:
+  mc-thavolcano:
+    image: itzg/minecraft-bedrock-server
+    container_name: mc-thavolcano
+    environment:
+      EULA: "TRUE"
+      OPS: "2535443204618427"
+      SERVER_NAME: ThaVolcano
+      LEVEL_SEED: "-321707274"
+      DIFFICULTY: peaceful
+    ports:
+      - 19135:19132/udp
+    volumes:
+      - ./data:/data
+    stdin_open: true
+    tty: true
