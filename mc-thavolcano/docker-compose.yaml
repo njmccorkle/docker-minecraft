@@ -2,6 +2,7 @@ services:
   mc-thavolcano:
     image: itzg/minecraft-bedrock-server
     container_name: mc-thavolcano
+    restart: unless-stopped
     environment:
       EULA: "TRUE"
       OPS: "2535443204618427"

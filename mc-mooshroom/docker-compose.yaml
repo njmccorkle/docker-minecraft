@@ -2,6 +2,7 @@ services:
   mc-mooshroom:
     image: itzg/minecraft-bedrock-server
     container_name: mc-mooshroom
+    restart: unless-stopped
     environment:
       EULA: "TRUE"
       OPS: "2535443204618427"
